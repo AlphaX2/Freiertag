@@ -1,4 +1,1 @@
-This file should contain a writeup describing what your application does,
-and how to use it. The content of this file goes into the long_description
-field of setup.py, which in turn becomes the long version of the Description
-field in the debian/control file of the project.
+Die App "Freiertag" bietet die Möglichkeit sich die deutschen Schulferien oder Feiertage nach Bundesland und Jahr anzeigen zu lassen. Im Moment werden die Jahre 2011-2013 abgedeckt. Als Datenquelle dienen die iCal Daten von www.schulferien.org/iCal. Der Quellcode der Anwendung steht unter der GNU GPL Lizenz Version 3.0 und kann unter: https://github.com/AlphaX2/Freiertag heruntergeladen werden.

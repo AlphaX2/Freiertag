@@ -7,11 +7,11 @@ Maintainer: Gabriel Boehme <m.gabrielboehme@googlemail.com>
 Standards-Version: 3.9.1
 Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
 Checksums-Sha1: 
- 2c2f62e38bc9a44f8f6a9fcded287afb1b95dd13 49405 f-r-eiertag_1.0.orig.tar.gz
- 401bec1a7f64966179f6ad5fa7428b6f0a2671c1 874 f-r-eiertag_1.0-1.debian.tar.gz
+ 9f075bffe29e0205590f840a5150d419d6d5eeb7 49444 f-r-eiertag_1.0.orig.tar.gz
+ 86ec219ec5befc7c4585777a6341c233d1dc23b1 965 f-r-eiertag_1.0-1.debian.tar.gz
 Checksums-Sha256: 
- c55aa55b118b44433fada16a6233cb6dbbbfa3f587a5d4dc657504806bd23389 49405 f-r-eiertag_1.0.orig.tar.gz
- 32f15e66f89c3293977e004efa4912ef3a43476e4c73c12dda754c60f7564d17 874 f-r-eiertag_1.0-1.debian.tar.gz
+ 5d458355bce5a7fcc290e2895466e2b903dcb5cbb8a2dfbca3bbe2a8f5fac3bb 49444 f-r-eiertag_1.0.orig.tar.gz
+ b4df7c3a4bafebfb7c85a761a47ff69e2275cbeff39fd13fb0392b21c787fa8a 965 f-r-eiertag_1.0-1.debian.tar.gz
 Files: 
- 80a9cf3467ae04398f7be3eeae975196 49405 f-r-eiertag_1.0.orig.tar.gz
- b15f539b8d632cb7d89bc2dd1b91290c 874 f-r-eiertag_1.0-1.debian.tar.gz
+ 622c00e8c3479c2c43c7c10fb31e5cbf 49444 f-r-eiertag_1.0.orig.tar.gz
+ a6dc6d374eb8955c33b1a51fb81daf21 965 f-r-eiertag_1.0-1.debian.tar.gz

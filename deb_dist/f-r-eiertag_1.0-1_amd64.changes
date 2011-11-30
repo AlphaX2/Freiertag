@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Wed, 30 Nov 2011 21:59:58 +0100
+Date: Wed, 30 Nov 2011 22:18:39 +0100
 Source: f-r-eiertag
 Binary: freiertag
 Architecture: all
@@ -15,8 +15,8 @@ Changes:
  .
    * source package automatically created by stdeb 0.6.0+git
 Checksums-Sha1: 
- f1b4de51d90b2a1bb0999df7c0e4faa945d4e821 40744 freiertag_1.0-1_all.deb
+ 03e211fa0bd44af2bf5a8b0010cdfffa8cebd0be 40868 freiertag_1.0-1_all.deb
 Checksums-Sha256: 
- 256f2a93844b69afec3a6cf489b77644ab5a7d47449a63177f6abc024b5f6733 40744 freiertag_1.0-1_all.deb
+ 5c225da837d1514e9a6755c7155b1a45b3b9297698793999fa19ef9a42c406c4 40868 freiertag_1.0-1_all.deb
 Files: 
- 960b9555fc228bea7986ba1591f63c79 40744 user/development optional freiertag_1.0-1_all.deb
+ 10c1d3c7590200c7dfc5b948fc5b3ba8 40868 user/development optional freiertag_1.0-1_all.deb

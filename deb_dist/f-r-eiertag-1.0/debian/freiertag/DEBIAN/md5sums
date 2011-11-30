@@ -1,6 +1,6 @@
 378e1ec246cebfdf4b126fbfa78f28ea  usr/bin/freiertag
 53a14f9a3acc1c98642372ba2b309c17  usr/share/applications/freiertag.desktop
-4487a654c9696fc749c8996149b6bc35  usr/share/doc/freiertag/changelog.Debian.gz
+45777f5277e16fa4a8a60449d63bd1e0  usr/share/doc/freiertag/changelog.Debian.gz
 e69b88c9979b831490c70195715d09e6  usr/share/freiertag/data/2011/feiertage/Feiertage_2011.ics
 bd7e381c97d113fbff733c4399aa53cd  usr/share/freiertag/data/2011/feiertage/Feiertage_Baden_Wuerttemberg_2011.ics
 b69296d7680623d64a6d92ce22960fcb  usr/share/freiertag/data/2011/feiertage/Feiertage_Bayern_2011.ics
@@ -104,4 +104,4 @@ d1e31a55ccd93d1a8dea17b7a97cbed6  usr/share/freiertag/qml/MainPage.qml
 0327f8fe2915782ba5735d5f4c5d277f  usr/share/freiertag/qml/ResultPage.qml
 874420224c02ddcc23e118b77b1f967f  usr/share/freiertag/qml/main.qml
 a46f4a300e4fed0810722a5bb3896f49  usr/share/icons/hicolor/80x80/apps/freiertag.png
-73274289aea26f37e767aa5818d92ef1  usr/share/pyshared/F_r_eiertag-1.0.egg-info
+cabfc02ae35ba8ae12091e83e9fde426  usr/share/pyshared/F_r_eiertag-1.0.egg-info
