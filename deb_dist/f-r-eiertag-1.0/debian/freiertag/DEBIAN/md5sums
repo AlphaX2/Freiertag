@@ -1,6 +1,6 @@
 378e1ec246cebfdf4b126fbfa78f28ea  usr/bin/freiertag
-53a14f9a3acc1c98642372ba2b309c17  usr/share/applications/freiertag.desktop
-45777f5277e16fa4a8a60449d63bd1e0  usr/share/doc/freiertag/changelog.Debian.gz
+e17647da41ca92d483245fdbd9190da2  usr/share/applications/freiertag.desktop
+41c3e46ab857d6038d167d51550ba736  usr/share/doc/freiertag/changelog.Debian.gz
 e69b88c9979b831490c70195715d09e6  usr/share/freiertag/data/2011/feiertage/Feiertage_2011.ics
 bd7e381c97d113fbff733c4399aa53cd  usr/share/freiertag/data/2011/feiertage/Feiertage_Baden_Wuerttemberg_2011.ics
 b69296d7680623d64a6d92ce22960fcb  usr/share/freiertag/data/2011/feiertage/Feiertage_Bayern_2011.ics
