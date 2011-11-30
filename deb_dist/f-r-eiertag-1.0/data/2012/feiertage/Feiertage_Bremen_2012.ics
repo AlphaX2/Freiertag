@@ -1,0 +1,113 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Neujahr
+DTSTART;VALUE=DATE:20120101
+DTEND;VALUE=DATE:20120102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Neujahr ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Neujahr-Bremen-201201011010743851@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Karfreitag
+DTSTART;VALUE=DATE:20120406
+DTEND;VALUE=DATE:20120407
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Karfreitag ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Karfreitag-Bremen-201204061333726702@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Ostermontag
+DTSTART;VALUE=DATE:20120409
+DTEND;VALUE=DATE:20120410
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Ostermontag ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Ostermontag-Bremen-201204091143604828@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Tag der Arbeit
+DTSTART;VALUE=DATE:20120501
+DTEND;VALUE=DATE:20120502
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Arbeit ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Arbeit-Bremen-201205011252062195@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Christi Himmelfahrt
+DTSTART;VALUE=DATE:20120517
+DTEND;VALUE=DATE:20120518
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Christi Himmelfahrt ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Christi Himmelfahrt-Bremen-201205171243320402@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Pfingstmontag
+DTSTART;VALUE=DATE:20120528
+DTEND;VALUE=DATE:20120529
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Pfingstmontag ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Pfingstmontag-Bremen-201205281314612439@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:Tag der Deutschen Einheit
+DTSTART;VALUE=DATE:20121003
+DTEND;VALUE=DATE:20121004
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Deutschen Einheit ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Deutschen Einheit-Bremen-201210031357806516@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:1. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121225
+DTEND;VALUE=DATE:20121226
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:1. Weihnachtsfeiertag ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:1. Weihnachtsfeiertag-Bremen-201212251121871333@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125119Z
+LAST-MODIFIED:20110114T125119Z
+DTSTAMP:20110114T125119Z
+SUMMARY:2. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121226
+DTEND;VALUE=DATE:20121227
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:2. Weihnachtsfeiertag ist gesetzlicher Feiertag in Bremen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:2. Weihnachtsfeiertag-Bremen-201212261267278115@schulferien.org
+END:VEVENT
+END:VCALENDAR

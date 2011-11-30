@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: F-r-eiertag
+Version: 1.0
+Summary: App die deutsche Schulferien und Feiertage anzeigen kann.
+Home-page: UNKNOWN
+Author: Gabriel Boehme
+Author-email: m.gabrielboehme@googlemail.com
+License: UNKNOWN
+Description: This file should contain a writeup describing what your application does,
+        and how to use it. The content of this file goes into the long_description
+        field of setup.py, which in turn becomes the long version of the Description
+        field in the debian/control file of the project.
+        
+Platform: UNKNOWN

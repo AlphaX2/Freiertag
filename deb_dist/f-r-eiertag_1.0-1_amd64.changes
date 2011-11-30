@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 30 Nov 2011 21:59:58 +0100
+Source: f-r-eiertag
+Binary: freiertag
+Architecture: all
+Version: 1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Gabriel Boehme <m.gabrielboehme@googlemail.com>
+Changed-By: Gabriel Boehme <m.gabrielboehme@googlemail.com>
+Description: 
+ freiertag  - App die deutsche Schulferien und Feiertage anzeigen kann.
+Changes: 
+ f-r-eiertag (1.0-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.6.0+git
+Checksums-Sha1: 
+ f1b4de51d90b2a1bb0999df7c0e4faa945d4e821 40744 freiertag_1.0-1_all.deb
+Checksums-Sha256: 
+ 256f2a93844b69afec3a6cf489b77644ab5a7d47449a63177f6abc024b5f6733 40744 freiertag_1.0-1_all.deb
+Files: 
+ 960b9555fc228bea7986ba1591f63c79 40744 user/development optional freiertag_1.0-1_all.deb

@@ -1,0 +1,14 @@
+Package: freiertag
+Source: f-r-eiertag
+Version: 1.0-1
+Architecture: all
+Maintainer: Gabriel Boehme <m.gabrielboehme@googlemail.com>
+Installed-Size: 732
+Depends: python2.6, python (>= 2.6), python-pyside.qtgui, python-pyside.qtopengl, python-pyside.qtdeclarative
+Section: user/development
+Priority: optional
+Description: App die deutsche Schulferien und Feiertage anzeigen kann.
+ This file should contain a writeup describing what your application does,
+ and how to use it. The content of this file goes into the long_description
+ field of setup.py, which in turn becomes the long version of the Description
+ field in the debian/control file of the project.

@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Neujahr
+DTSTART;VALUE=DATE:20120101
+DTEND;VALUE=DATE:20120102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Neujahr ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Neujahr-Rheinland_Pfalz-201201011320097328@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Karfreitag
+DTSTART;VALUE=DATE:20120406
+DTEND;VALUE=DATE:20120407
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Karfreitag ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Karfreitag-Rheinland_Pfalz-201204061393232753@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Ostermontag
+DTSTART;VALUE=DATE:20120409
+DTEND;VALUE=DATE:20120410
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Ostermontag ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Ostermontag-Rheinland_Pfalz-201204091175259898@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Arbeit
+DTSTART;VALUE=DATE:20120501
+DTEND;VALUE=DATE:20120502
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Arbeit ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Arbeit-Rheinland_Pfalz-201205011395539696@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Christi Himmelfahrt
+DTSTART;VALUE=DATE:20120517
+DTEND;VALUE=DATE:20120518
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Christi Himmelfahrt ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Christi Himmelfahrt-Rheinland_Pfalz-201205171363070456@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Pfingstmontag
+DTSTART;VALUE=DATE:20120528
+DTEND;VALUE=DATE:20120529
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Pfingstmontag ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Pfingstmontag-Rheinland_Pfalz-201205281182721357@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Fronleichnam
+DTSTART;VALUE=DATE:20120607
+DTEND;VALUE=DATE:20120608
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Fronleichnam ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Fronleichnam-Rheinland_Pfalz-201206071204521483@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Deutschen Einheit
+DTSTART;VALUE=DATE:20121003
+DTEND;VALUE=DATE:20121004
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Deutschen Einheit ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Deutschen Einheit-Rheinland_Pfalz-201210031174904946@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Allerheiligen
+DTSTART;VALUE=DATE:20121101
+DTEND;VALUE=DATE:20121102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Allerheiligen ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Allerheiligen-Rheinland_Pfalz-201211011023437811@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:1. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121225
+DTEND;VALUE=DATE:20121226
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:1. Weihnachtsfeiertag ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:1. Weihnachtsfeiertag-Rheinland_Pfalz-201212251328115710@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:2. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121226
+DTEND;VALUE=DATE:20121227
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:2. Weihnachtsfeiertag ist gesetzlicher Feiertag in Rheinland-Pfalz. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:2. Weihnachtsfeiertag-Rheinland_Pfalz-201212261344545953@schulferien.org
+END:VEVENT
+END:VCALENDAR

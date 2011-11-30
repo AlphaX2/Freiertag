@@ -1,0 +1,174 @@
+#!/usr/bin/python2.6
+#-*- coding: utf-8 -*-
+
+#Importe
+import sys
+from datetime import date
+
+from PySide import QtCore
+from PySide.QtCore import Qt
+from PySide import QtGui
+from PySide import QtDeclarative
+from PySide import QtOpenGL
+
+class cubetimer():
+    def __init__(self):
+
+        #Oberfläche und Instanzierungen für QML2Py Funktionen
+        self.view = QtDeclarative.QDeclarativeView()
+
+        #OpenGL Rendering
+        self.glw = QtOpenGL.QGLWidget()
+        self.view.setViewport(self.glw)
+
+        self.view.setSource(QtCore.QUrl('/usr/share/freiertag/qml/main.qml'))
+        self.root = self.view.rootObject()
+
+        #instantiate the Python object
+        self.pyfunc = pyfunc()
+
+        #expose the object to QML
+        self.context = self.view.rootContext()
+        self.context.setContextProperty("pyfunc", self.pyfunc)
+
+        self.pyfunc.jahrIndex.connect(self.jahrIndex)
+        self.pyfunc.blandIndex.connect(self.blandIndex)
+        self.pyfunc.holidayKind.connect(self.holidayKind)
+        self.selectedjahrIndex = u"2011"
+        self.selectedblandIndex = u"Baden-Württemberg"
+        self.selectedholidayKind = u"Schulferien"
+        self.results = []
+
+        #Buttons der UI
+        self.searchbutton = self.root.findChild(QtCore.QObject,"such_button")
+        self.searchbutton.clicked.connect(self.suche)
+
+
+    def jahrIndex(self, index):
+        self.selectedjahrIndex = unicode(index)
+        print self.selectedjahrIndex
+
+
+    def blandIndex(self, index):
+        self.selectedblandIndex = unicode(index)
+        print self.selectedblandIndex
+
+
+    def holidayKind(self, kind):
+        self.selectedholidayKind = unicode(kind)
+        print self.selectedholidayKind
+
+
+    def suche(self):
+        print "suche startet"
+        jahr = self.selectedjahrIndex
+        print jahr
+        bundesland = self.selectedblandIndex
+        print bundesland
+        frei = self.selectedholidayKind
+        print frei
+
+        #Replacment um Dateneinlesen zu können und Probleme mit Coding zu vermeiden
+        bundesland = bundesland.replace(u'ü', 'ue')
+        bundesland = bundesland.replace('-', '_')
+        print bundesland
+
+        if frei == 'Schulferien':
+            print "Schulferien erkannt"
+            self.parse_ferien(jahr, bundesland)
+
+        if frei == 'gesetzliche Feiertage':
+            print "gesetzl. Feiertage erkannt"
+            gesetz = True
+            self.parse_feiertage(jahr, bundesland, gesetz)
+
+        if frei == 'alle Feiertage':
+            print "Feiertage allgemein erkannt"
+            gesetz = False
+            self.parse_feiertage(jahr,bundesland, gesetz)
+
+
+    def parse_ferien(self, jahr, bundesland):
+        self.results = []
+        termine = file('/usr/share/freiertag/data/%s/ferien/Ferien_%s_%s.ics' % (jahr, bundesland, jahr), 'r')
+
+
+        for start_ende in termine.readlines():
+            #Unter SUMMARY liegen die Namen der Ferien, werden hier geparst und ohne Bundesland-Namen wieder ausgegeben
+            if start_ende.startswith('SUMMARY:'):
+                summary = start_ende[8:-1]
+                summary = summary.replace('ue', u'ü')
+                summary = summary[:len(summary)-len(bundesland)]
+
+                self.results.append(summary)
+
+            #Start Datum sowie Enddatum der Ferien, durch for-Schleife immer im Wechsel, in der Liste!
+            if start_ende.startswith('DTSTART;VALUE=DATE:'):
+                datum_start = start_ende[19:27]
+                ds = datum_start[6:8] 
+                ms = datum_start[4:6] 
+                ys = datum_start[0:4]
+
+            if start_ende.startswith('DTEND;VALUE=DATE:'):
+                datum_ende = start_ende[17:25]
+                de = datum_ende[6:8] 
+                me = datum_ende[4:6] 
+                ye = datum_ende[0:4]
+
+                datum = '%s.%s.%s - %s.%s.%s' % (ds, ms, ys, de, me, ye)
+                self.results.append(datum)
+
+        self.root.create_listview(self.results)
+
+
+    def parse_feiertage(self, jahr, bundesland, gesetz):
+        self.results = []
+        #bestimmt die Datei, an Hand der Variablen aus den Comboboxen.
+        #Die Dateien liegen dann unter data/<jahr>/feiertage/Ferien_<bundesland>_<jahr>.ics liegen, unterscheidet nach gesetzlich oder nicht!
+        if gesetz == True:
+            termine = file('/usr/share/freiertag/data/%s/feiertage/Feiertage_%s_%s.ics' % (jahr, bundesland, jahr), 'r')
+
+        elif gesetz == False:
+            termine = file('/usr/share/freiertag/data/%s/feiertage/Feiertage_%s.ics' % (jahr, jahr), 'r')
+
+        for start_ende in termine.readlines():
+            #Unter SUMMARY liegen die Namen der Feiertage, werden hier geparst und ausgegeben.
+            if start_ende.startswith('SUMMARY:'):
+                summary = start_ende[8:-1]
+
+                if summary != 'Volkstrauertag':
+                        summary = summary.replace('ue', u'ü')
+                        summary = summary.replace('ae', u'ä')
+                        summary = summary.replace('oe', u'ö')
+
+                self.results.append(summary)
+
+            #Datum der Feiertage
+            if start_ende.startswith('DTSTART;VALUE=DATE:'):
+                datum_start = start_ende[19:27]
+                ds = datum_start[6:8] 
+                ms = datum_start[4:6] 
+                ys = datum_start[0:4]
+                #Bestimmung des Wochentages mit datetime.weekday() Funktion
+                tag = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"][date(int(ys), int(ms), int(ds)).weekday()]
+
+                datum = '%s, %s.%s.%s' % (tag, ds, ms, ys)
+                self.results.append(datum)
+
+        self.root.create_listview(self.results)
+
+# Klasse für Funktionen die aus QML heraus angesprochen werden sollen:
+class pyfunc(QtCore.QObject):
+    blandIndex = QtCore.Signal(str)
+    jahrIndex = QtCore.Signal(str)
+    holidayKind = QtCore.Signal(str)
+
+    def __init__(self):
+        QtCore.QObject.__init__(self)
+
+#Starten der App
+if __name__ == '__main__':
+    app = QtGui.QApplication(sys.argv)
+    start = cubetimer()
+    start.view.showFullScreen()
+    sys.exit(app.exec_())

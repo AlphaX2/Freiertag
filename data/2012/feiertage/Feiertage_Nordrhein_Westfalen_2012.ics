@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Neujahr
+DTSTART;VALUE=DATE:20120101
+DTEND;VALUE=DATE:20120102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Neujahr ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Neujahr-Nordrhein_Westfalen-201201011132626180@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Karfreitag
+DTSTART;VALUE=DATE:20120406
+DTEND;VALUE=DATE:20120407
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Karfreitag ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Karfreitag-Nordrhein_Westfalen-201204061185056936@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Ostermontag
+DTSTART;VALUE=DATE:20120409
+DTEND;VALUE=DATE:20120410
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Ostermontag ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Ostermontag-Nordrhein_Westfalen-201204091215120947@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Arbeit
+DTSTART;VALUE=DATE:20120501
+DTEND;VALUE=DATE:20120502
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Arbeit ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Arbeit-Nordrhein_Westfalen-201205011295045064@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Christi Himmelfahrt
+DTSTART;VALUE=DATE:20120517
+DTEND;VALUE=DATE:20120518
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Christi Himmelfahrt ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Christi Himmelfahrt-Nordrhein_Westfalen-201205171157598314@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Pfingstmontag
+DTSTART;VALUE=DATE:20120528
+DTEND;VALUE=DATE:20120529
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Pfingstmontag ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Pfingstmontag-Nordrhein_Westfalen-201205281180438399@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Fronleichnam
+DTSTART;VALUE=DATE:20120607
+DTEND;VALUE=DATE:20120608
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Fronleichnam ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Fronleichnam-Nordrhein_Westfalen-201206071034215992@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Deutschen Einheit
+DTSTART;VALUE=DATE:20121003
+DTEND;VALUE=DATE:20121004
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Deutschen Einheit ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Deutschen Einheit-Nordrhein_Westfalen-201210031174412987@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Allerheiligen
+DTSTART;VALUE=DATE:20121101
+DTEND;VALUE=DATE:20121102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Allerheiligen ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Allerheiligen-Nordrhein_Westfalen-201211011040309321@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:1. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121225
+DTEND;VALUE=DATE:20121226
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:1. Weihnachtsfeiertag ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:1. Weihnachtsfeiertag-Nordrhein_Westfalen-201212251024073494@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:2. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20121226
+DTEND;VALUE=DATE:20121227
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:2. Weihnachtsfeiertag ist gesetzlicher Feiertag in Nordrhein-Westfalen. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:2. Weihnachtsfeiertag-Nordrhein_Westfalen-201212261091459733@schulferien.org
+END:VEVENT
+END:VCALENDAR

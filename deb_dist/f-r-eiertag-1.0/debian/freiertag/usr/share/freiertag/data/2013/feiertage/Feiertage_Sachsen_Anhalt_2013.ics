@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Neujahr
+DTSTART;VALUE=DATE:20130101
+DTEND;VALUE=DATE:20130102
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Neujahr ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Neujahr-Sachsen_Anhalt-201301011366776823@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Heilige Drei Koenige
+DTSTART;VALUE=DATE:20130106
+DTEND;VALUE=DATE:20130107
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Heilige Drei Koenige ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Heilige Drei Koenige-Sachsen_Anhalt-201301061044603990@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Karfreitag
+DTSTART;VALUE=DATE:20130329
+DTEND;VALUE=DATE:20130330
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Karfreitag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Karfreitag-Sachsen_Anhalt-201303291361606906@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Ostermontag
+DTSTART;VALUE=DATE:20130401
+DTEND;VALUE=DATE:20130402
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Ostermontag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Ostermontag-Sachsen_Anhalt-201304011152969315@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Arbeit
+DTSTART;VALUE=DATE:20130501
+DTEND;VALUE=DATE:20130502
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Arbeit ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Arbeit-Sachsen_Anhalt-201305011131401682@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Christi Himmelfahrt
+DTSTART;VALUE=DATE:20130509
+DTEND;VALUE=DATE:20130510
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Christi Himmelfahrt ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Christi Himmelfahrt-Sachsen_Anhalt-201305091203412377@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Pfingstmontag
+DTSTART;VALUE=DATE:20130520
+DTEND;VALUE=DATE:20130521
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Pfingstmontag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Pfingstmontag-Sachsen_Anhalt-201305201215461047@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Tag der Deutschen Einheit
+DTSTART;VALUE=DATE:20131003
+DTEND;VALUE=DATE:20131004
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Tag der Deutschen Einheit ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Tag der Deutschen Einheit-Sachsen_Anhalt-201310031163691928@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:Reformationstag
+DTSTART;VALUE=DATE:20131031
+DTEND;VALUE=DATE:20131101
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:Reformationstag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:Reformationstag-Sachsen_Anhalt-201310311053675557@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:1. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20131225
+DTEND;VALUE=DATE:20131226
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:1. Weihnachtsfeiertag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:1. Weihnachtsfeiertag-Sachsen_Anhalt-201312251179979419@schulferien.org
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20110114T125120Z
+LAST-MODIFIED:20110114T125120Z
+DTSTAMP:20110114T125120Z
+SUMMARY:2. Weihnachtsfeiertag
+DTSTART;VALUE=DATE:20131226
+DTEND;VALUE=DATE:20131227
+URL:http://www.schulferien.org/Feiertage
+DESCRIPTION:2. Weihnachtsfeiertag ist gesetzlicher Feiertag in Sachsen-Anhalt. Alle Termine auf www.schulferien.org/Feiertage
+TRANSP:TRANSPARENT
+UID:2. Weihnachtsfeiertag-Sachsen_Anhalt-201312261123652958@schulferien.org
+END:VEVENT
+END:VCALENDAR
